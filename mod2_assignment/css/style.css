@@ -1,0 +1,73 @@
+
+/**********Basic style**********/
+* {
+  box-sizing: border-box;
+  font-family: Lucida Handwriting;
+}
+
+h1 {
+  margin-bottom: 15px;
+  font-size: 200%;
+  text-align: center;
+}
+
+h2{
+  margin: unset;
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
+  width: 200px;
+  text-align: center;
+  float: right;
+}
+
+div:nth-child(1) h2{
+  background-color: pink;
+}
+
+div:nth-child(2) h2{
+  background-color: lightblue;
+}
+
+div:nth-child(3) h2{
+  background-color: lightyellow;
+}
+
+p {
+  margin: unset;
+  clear: right;
+  padding: 5px;
+  font-size: 85%;
+}
+
+
+.section{
+    float: left;
+    background-color: lightgrey;
+    height: 130px;
+    border: 2px solid black;
+    margin: 1%;
+    overflow: hidden;
+}
+
+.row {
+  width: 100%;
+}
+
+/********** Desktop view **********/
+@media (min-width: 992px) {.col-lg-4 {
+  }
+  .col-lg-4 {
+    width: 31.33%;
+  }
+}
+
+/********** Tablet view **********/
+@media (min-width: 768px) and (max-width: 991px) {.col-md-6, .col-md-12 {
+  }
+  .col-md-6 {
+    width: 48%;
+  }
+  .col-md-12{
+    width: 98%;
+  }
+}
