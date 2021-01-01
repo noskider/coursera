@@ -20,12 +20,12 @@ h2{
   float: right;
 }
 
-div:nth-child(1) h2{
-  background-color: pink;
-}
-
 div:nth-child(2) h2{
   background-color: lightblue;
+}
+
+div:nth-child(1) h2{
+  background-color: pink;
 }
 
 div:nth-child(3) h2{
